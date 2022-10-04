@@ -1,0 +1,145 @@
+#include <SoftwareSerial.h>
+
+String inputString = "";   // a string to hold incoming data
+String messageString = "";
+boolean stringComplete = false;  // whether the string is complete
+bool messageComplete = false;
+String profNum = "";
+String messageText = "";
+String verificationCode = "";
+int studentIndex, equipIndex, profIndex, codeIndex, verificationIndex;
+String student = "";
+String prof = "";
+String code = "";
+String equipment = "";
+
+
+boolean isConnected = false;
+
+SoftwareSerial gsmSerial(3,2);
+
+void setup() {
+  
+  Serial.begin(9600);
+  gsmSerial.begin(9600);
+  gsmInitialization();
+}
+
+void loop() {
+
+  serialEvent();
+
+  if(stringComplete)
+  {
+    stringComplete = false;
+    getMessageData();
+    sendMessage();
+    inputString = "";
+  }
+
+  serialEvent1();
+
+  if(messageComplete)
+  {
+    messageComplete = false;
+    sendCode();
+    messageString = "";
+  }
+  
+}
+
+void getMessageData()
+{
+  if(inputString.length()>0)
+  {
+     stringParts();
+  }
+}
+
+void sendMessage()
+{
+  gsmSerial.println("AT+CMGS=\"" + profNum + "\"");
+  updateSerial();
+  gsmSerial.print(messageText);
+  updateSerial();
+  gsmSerial.write((char)26);
+  updateSerial();
+}
+
+void sendCode()
+{
+  Serial.println(messageString);
+}
+
+void serialEvent() {
+  while (Serial.available()) {
+    // get the new byte:
+    char inChar = (char)Serial.read();
+    // add it to the inputString:
+    inputString += inChar;
+    // if the incoming character is a newline, set a flag
+    // so the main loop can do something about it:
+    if (inChar == '\n') {
+      stringComplete = true;
+    }
+  }
+}
+
+void serialEvent1() {
+  while (gsmSerial.available()) {
+    // get the new byte:
+    char inputCodeChar = (char)gsmSerial.read();
+    // add it to the inputString:
+    messageString += inputCodeChar;
+    // if the incoming character is a newline, set a flag
+    // so the main loop can do something about it:
+    if (inputCodeChar == '\n') {
+      messageComplete = true;
+    }
+  }
+}
+
+void gsmInitialization()
+{
+  Serial.println("Initializing...");
+  delay(1000);
+  gsmSerial.println("AT"); //Once the handshake test is successful, it will back to OK
+  updateSerial();
+  gsmSerial.println("AT+CSQ"); //Signal quality test, value range is 0-31 , 31 is the best
+  updateSerial();
+  gsmSerial.println("AT+CCID"); //Read SIM information to confirm whether the SIM is plugged
+  updateSerial();
+  gsmSerial.println("AT+CREG?"); //Check whether it has registered in the network
+  updateSerial();
+  gsmSerial.println("AT+CMGF=1"); // Configuring TEXT mode
+  updateSerial();
+  gsmSerial.println("AT+CNMI=1,2,0,0,0"); // Decides how newly arrived SMS messages should be handled
+  updateSerial();
+  delay(1000);
+}
+
+void updateSerial()
+{
+  delay(500);
+  while (Serial.available()) 
+  {
+    gsmSerial.write(Serial.read());//Forward what Serial received to Software Serial Port
+  }
+  while(gsmSerial.available()) 
+  {
+    Serial.write(gsmSerial.read());//Forward what Software Serial received to Serial Port
+  }
+}
+
+void stringParts(){
+  profNum = inputString.substring(1,14);
+  studentIndex = inputString.indexOf("001")+3;
+  equipIndex = inputString.indexOf("002")+3;
+  profIndex = inputString.indexOf("003")+3;
+  codeIndex = inputString.indexOf("004")+3;
+  String code = inputString.substring(codeIndex, codeIndex + 5);
+  String prof = inputString.substring(profIndex, codeIndex-3);
+  String equip = inputString.substring(equipIndex, profIndex-3);
+  String student = inputString.substring(studentIndex, equipIndex-3);
+  messageText = "Student: " + student + "\n" + "Equipment: " + equip + "\n" + "Professor: " + prof + "\n" + "Verification code: " + code;
+}

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EZEModelStoreContainer" CdmEntityContainer="EZEEntities">
+    <EntitySetMapping Name="FingerprintsTables">
+      <EntityTypeMapping TypeName="EZEModel.FingerprintsTable">
+        <MappingFragment StoreEntitySet="FingerprintsTable">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Student_Number" ColumnName="Student_Number" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Fingerprint" ColumnName="Fingerprint" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

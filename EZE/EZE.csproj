@@ -1,0 +1,1018 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1A586174-BF75-4A3D-8B65-6FC9D7A5A538}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EZE</RootNamespace>
+    <AssemblyName>EZE</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu_UI_v1.5.3">
+      <HintPath>..\packages\GCDesign.1.0.0\lib\net46\GCDesign.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="CalendarClock">
+      <HintPath>..\..\..\EZ-E1\DLL\CalendarClock.dll</HintPath>
+    </Reference>
+    <Reference Include="Dapper, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Dapper.2.0.35\lib\net461\Dapper.dll</HintPath>
+    </Reference>
+    <Reference Include="DigitalClock">
+      <HintPath>..\..\..\EZ-E1\DLL\DigitalClock.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPDevNET, Version=1.4.0.0, Culture=neutral, PublicKeyToken=696774c42ee28c57, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\EZ-E1\DLL\DigitalPersona\DPFPDevNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPEngNET, Version=1.4.0.0, Culture=neutral, PublicKeyToken=7fe76e7adf19964b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\EZ-E1\DLL\DigitalPersona\DPFPEngNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPGuiNET, Version=1.4.0.0, Culture=neutral, PublicKeyToken=d4f4a0bd9c559145, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\EZ-E1\DLL\DigitalPersona\DPFPGuiNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPShrNET, Version=1.4.0.0, Culture=neutral, PublicKeyToken=d902fe275a8d6cf2, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\EZ-E1\DLL\DigitalPersona\DPFPShrNET.dll</HintPath>
+    </Reference>
+    <Reference Include="DPFPVerNET, Version=1.4.0.0, Culture=neutral, PublicKeyToken=4de0a9c4dcc83984, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Desktop\EZ-E1\DLL\DigitalPersona\DPFPVerNET.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=19f9d7d4cc76b670, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFrameworkDbModelStore.1.1\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.BulkInsert, Version=6.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.BulkInsert-ef6-ext.6.0.3.1\lib\net45\EntityFramework.BulkInsert.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.MappingAPI, Version=0.0.0.0, Culture=neutral, PublicKeyToken=19f9d7d4cc76b670, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFrameworkDbModelStore.MappingAPI.1.1\lib\net45\EntityFramework.MappingAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=19f9d7d4cc76b670, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFrameworkDbModelStore.1.1\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Excel">
+      <HintPath>C:\Users\jelor\Desktop\EZ-E1\DLL\Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.3.6.0\lib\net45\ExcelDataReader.dll</HintPath>
+    </Reference>
+    <Reference Include="ExcelDataReader.DataSet, Version=3.6.0.0, Culture=neutral, PublicKeyToken=93517dbe6a4012fa, processorArchitecture=MSIL">
+      <HintPath>..\packages\ExcelDataReader.DataSet.3.6.0\lib\net35\ExcelDataReader.DataSet.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=5.12.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\FontAwesome.Sharp\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>DLL\Guna Framework UI Lastest Version + Cracked\Guna_UI_Framework_Ultimate_2.0.0.1_Downloadly.ir\Guna UI Framework Ultimate 2.0.0.1\Guna UI Framework Ultimate v2.0.0.1 Lib-Master\Guna.UI2 WinForms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.2.0.246, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.2.0\lib\net45\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\..\..\Desktop\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.1000.523\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Linq.Dynamic.Core, Version=1.2.2.0, Culture=neutral, PublicKeyToken=0f07ec44de6ac832, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Linq.Dynamic.Core.1.2.2\lib\net46\System.Linq.Dynamic.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions, Version=1.2.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\dot-net-transitions.1.2.1.0\lib\net40-full\Transitions.dll</HintPath>
+    </Reference>
+    <Reference Include="WebCam_Capture, Version=1.0.2395.24959, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Webcam\WebCam_Capture.dll</HintPath>
+    </Reference>
+    <Reference Include="Z.Dapper.Plus, Version=4.0.28.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.Dapper.Plus.4.0.28\lib\net45\Z.Dapper.Plus.dll</HintPath>
+    </Reference>
+    <Reference Include="Z.EntityFramework.Extensions, Version=4.0.11.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.EntityFramework.Extensions.4.0.11\lib\net45\Z.EntityFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Z.EntityFramework.Plus.EF6, Version=1.12.3.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.EntityFramework.Plus.EF6.1.12.3\lib\net45\Z.EntityFramework.Plus.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="Z.Expressions.Eval, Version=3.0.3.0, Culture=neutral, PublicKeyToken=59b66d028979105b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Z.Expressions.Eval.3.0.3\lib\net45\Z.Expressions.Eval.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ADO.NetModels\AccountsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\AccountsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\AccountsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AccountsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\AccountsTable.cs">
+      <DependentUpon>AccountsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\MessageModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\MessageModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\MessageModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MessageModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\MessagesTable.cs">
+      <DependentUpon>MessageModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\AccountsListClass.cs" />
+    <Compile Include="Classes\EquipmentsClass.cs" />
+    <Compile Include="EZE_AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_AdminDashboard.Designer.cs">
+      <DependentUpon>EZE_AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_Report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_Report.Designer.cs">
+      <DependentUpon>EZE_Report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_StudentsFingerprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_StudentsFingerprint.Designer.cs">
+      <DependentUpon>EZE_StudentsFingerprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\EquipmentsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EquipmentsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\EquipmentsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EquipmentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\EquipmentsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EquipmentsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\EquipmentsTable.cs">
+      <DependentUpon>EquipmentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_AccountsDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_AccountsDatabase.Designer.cs">
+      <DependentUpon>EZE_AccountsDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\BorrowEquipmentsClass.cs" />
+    <Compile Include="Controls\HowToReceiveCode.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\HowToReceiveCode.Designer.cs">
+      <DependentUpon>HowToReceiveCode.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UCFP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UCFP.Designer.cs">
+      <DependentUpon>UCFP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UCHelp.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UCHelp.Designer.cs">
+      <DependentUpon>UCHelp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controls\UCRP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Controls\UCRP.Designer.cs">
+      <DependentUpon>UCRP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_AdminMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_AdminMenu.Designer.cs">
+      <DependentUpon>EZE_AdminMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_Camera.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_Camera.Designer.cs">
+      <DependentUpon>EZE_Camera.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_ForgotPassword.Designer.cs">
+      <DependentUpon>EZE_ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_Schedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_Schedule.Designer.cs">
+      <DependentUpon>EZE_Schedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_StartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_StartForm.Designer.cs">
+      <DependentUpon>EZE_StartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_SAMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_SAMenu.Designer.cs">
+      <DependentUpon>EZE_SAMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_TransactionBorrowVerify.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_TransactionBorrowVerify.Designer.cs">
+      <DependentUpon>EZE_TransactionBorrowVerify.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FingerprintModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FingerprintModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FingerprintModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintModel1.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FingerprintModel1.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintModel1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FingerprintModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintModel1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>FingerprintModel1.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintsTable.cs">
+      <DependentUpon>FingerprintModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_StudentsFingerprintRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_StudentsFingerprintRegister.Designer.cs">
+      <DependentUpon>EZE_StudentsFingerprintRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classes\EntityState.cs" />
+    <Compile Include="Classes\FingerprintsClass.cs" />
+    <Compile Include="EZE_ImportExcelFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_ImportExcelFile.Designer.cs">
+      <DependentUpon>EZE_ImportExcelFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_UsersFingerprintRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_UsersFingerprintRegister.Designer.cs">
+      <DependentUpon>EZE_UsersFingerprintRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox.Designer.cs">
+      <DependentUpon>messagebox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox2.Designer.cs">
+      <DependentUpon>messagebox2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox3.Designer.cs">
+      <DependentUpon>messagebox3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\FingerprintsTableUser.cs">
+      <DependentUpon>FingerprintModel1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Helper.cs" />
+    <Compile Include="EZE_FAQs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_FAQs.Designer.cs">
+      <DependentUpon>EZE_FAQs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\messagebox4.Designer.cs">
+      <DependentUpon>messagebox4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\ProfessorsClass.cs" />
+    <Compile Include="ADO.NetModels\GetReturnFinal_Result.cs">
+      <DependentUpon>ReportsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ProfessorsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfessorsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ProfessorsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfessorsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ProfessorsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ProfessorsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ProfessorsTable.cs">
+      <DependentUpon>ProfessorsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_FacultyInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_FacultyInformation.Designer.cs">
+      <DependentUpon>EZE_FacultyInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\RandomClasses.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="EZE_Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_Inventory.Designer.cs">
+      <DependentUpon>EZE_Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Classes\StudentsClass.cs" />
+    <Compile Include="Classes\SchedulesClass.cs" />
+    <Compile Include="ReportDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ReportsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ReportsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\ReportsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\SchedulesModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SchedulesModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\SchedulesModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SchedulesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\SchedulesModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SchedulesModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\SchedulesTable.cs">
+      <DependentUpon>SchedulesModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Repositories\BorrowEquipmentsClassRepository.cs" />
+    <Compile Include="Repositories\MessageRepository.cs" />
+    <Compile Include="Repositories\ProfessorRepository.cs" />
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Information\ViewDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information\ViewDetails.Designer.cs">
+      <DependentUpon>ViewDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\StudentsModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\StudentsModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\StudentsModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="ADO.NetModels\StudentsTable.cs">
+      <DependentUpon>StudentsModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Information\ViewDetails2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Information\ViewDetails2.Designer.cs">
+      <DependentUpon>ViewDetails2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_TransactionBorrow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_TransactionBorrow.Designer.cs">
+      <DependentUpon>EZE_TransactionBorrow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_TransactionReturn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_TransactionReturn.Designer.cs">
+      <DependentUpon>EZE_TransactionReturn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Classes\Webcam.cs" />
+    <Compile Include="Classes\UserFingerprintsClass.cs" />
+    <Compile Include="EZE_UsersFingerprint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_UsersFingerprint.Designer.cs">
+      <DependentUpon>EZE_UsersFingerprint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\Validation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomMessageBoxes\Validation.Designer.cs">
+      <DependentUpon>Validation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EZE_StudentsDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EZE_StudentsDatabase.Designer.cs">
+      <DependentUpon>EZE_StudentsDatabase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\GSMsms.cs" />
+    <EmbeddedResource Include="EZE_AdminDashboard.resx">
+      <DependentUpon>EZE_AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_Report.resx">
+      <DependentUpon>EZE_Report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_StudentsFingerprint.resx">
+      <DependentUpon>EZE_StudentsFingerprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_AccountsDatabase.resx">
+      <DependentUpon>EZE_AccountsDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\HowToReceiveCode.resx">
+      <DependentUpon>HowToReceiveCode.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UCFP.resx">
+      <DependentUpon>UCFP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UCHelp.resx">
+      <DependentUpon>UCHelp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\UCRP.resx">
+      <DependentUpon>UCRP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_AdminMenu.resx">
+      <DependentUpon>EZE_AdminMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_Camera.resx">
+      <DependentUpon>EZE_Camera.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_ForgotPassword.resx">
+      <DependentUpon>EZE_ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_Schedule.resx">
+      <DependentUpon>EZE_Schedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_StartForm.resx">
+      <DependentUpon>EZE_StartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_StudentsFingerprintRegister.resx">
+      <DependentUpon>EZE_StudentsFingerprintRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dim.resx">
+      <DependentUpon>Dim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_ImportExcelFile.resx">
+      <DependentUpon>EZE_ImportExcelFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_UsersFingerprintRegister.resx">
+      <DependentUpon>EZE_UsersFingerprintRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBoxes\messagebox.resx">
+      <DependentUpon>messagebox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBoxes\messagebox2.resx">
+      <DependentUpon>messagebox2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBoxes\messagebox3.resx">
+      <DependentUpon>messagebox3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_SAMenu.resx">
+      <DependentUpon>EZE_SAMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_TransactionBorrowVerify.resx">
+      <DependentUpon>EZE_TransactionBorrowVerify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBoxes\messagebox4.resx">
+      <DependentUpon>messagebox4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_FAQs.resx">
+      <DependentUpon>EZE_FAQs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_FacultyInformation.resx">
+      <DependentUpon>EZE_FacultyInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_Inventory.resx">
+      <DependentUpon>EZE_Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Report.rdlc" />
+    <EmbeddedResource Include="Information\ViewDetails.resx">
+      <DependentUpon>ViewDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Information\ViewDetails2.resx">
+      <DependentUpon>ViewDetails2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_TransactionBorrow.resx">
+      <DependentUpon>EZE_TransactionBorrow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_TransactionReturn.resx">
+      <DependentUpon>EZE_TransactionReturn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_UsersFingerprint.resx">
+      <DependentUpon>EZE_UsersFingerprint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomMessageBoxes\Validation.resx">
+      <DependentUpon>Validation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EZE_StudentsDatabase.resx">
+      <DependentUpon>EZE_StudentsDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EntityDeploy Include="ADO.NetModels\AccountsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>AccountsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\AccountsModel.edmx.diagram">
+      <DependentUpon>AccountsModel.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="ADO.NetModels\EquipmentsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>EquipmentsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\EquipmentsModel.edmx.diagram">
+      <DependentUpon>EquipmentsModel.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="ADO.NetModels\FingerprintModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>FingerprintModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\FingerprintModel.edmx.diagram">
+      <DependentUpon>FingerprintModel.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="ADO.NetModels\FingerprintModel1.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>FingerprintModel1.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\FingerprintModel1.edmx.diagram">
+      <DependentUpon>FingerprintModel1.edmx</DependentUpon>
+    </None>
+    <EntityDeploy Include="ADO.NetModels\MessageModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>MessageModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\MessageModel.edmx.diagram">
+      <DependentUpon>MessageModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <EntityDeploy Include="ADO.NetModels\ProfessorsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ProfessorsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\ProfessorsModel.edmx.diagram">
+      <DependentUpon>ProfessorsModel.edmx</DependentUpon>
+    </None>
+    <None Include="Properties\DataSources\AccountsListClass1.datasource" />
+    <None Include="Properties\DataSources\BorrowEquipmentsClass1.datasource" />
+    <None Include="Properties\DataSources\EquipmentsClass1.datasource" />
+    <None Include="Properties\DataSources\EZEEntities51.datasource" />
+    <None Include="Properties\DataSources\EZE_FacultyInformation.datasource" />
+    <None Include="Properties\DataSources\EZE_Report.datasource" />
+    <None Include="Properties\DataSources\FingerprintsClass1.datasource" />
+    <None Include="Properties\DataSources\FingerprintsTable1.datasource" />
+    <None Include="Properties\DataSources\FingerprintsTableUser1.datasource" />
+    <None Include="Properties\DataSources\ProfessorsClass1.datasource" />
+    <None Include="Properties\DataSources\SchedulesClass1.datasource" />
+    <None Include="Properties\DataSources\StudentsClass.datasource" />
+    <None Include="Properties\DataSources\StudentsClass2.datasource" />
+    <None Include="Properties\DataSources\UpdateNameUserFingerprintsClass.datasource" />
+    <None Include="Properties\DataSources\UserFingerprintsClass1.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EntityDeploy Include="ADO.NetModels\StudentsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>StudentsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <EntityDeploy Include="ADO.NetModels\SchedulesModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>SchedulesModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ReportDataSet.xsc">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ReportDataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportDataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="ReportDataSet.xss">
+      <DependentUpon>ReportDataSet.xsd</DependentUpon>
+    </None>
+    <EntityDeploy Include="ADO.NetModels\ReportsModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>ReportsModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="ADO.NetModels\ReportsModel.edmx.diagram">
+      <DependentUpon>ReportsModel.edmx</DependentUpon>
+    </None>
+    <None Include="ADO.NetModels\SchedulesModel.edmx.diagram">
+      <DependentUpon>SchedulesModel.edmx</DependentUpon>
+    </None>
+    <None Include="ADO.NetModels\StudentsModel.edmx.diagram">
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ADO.NetModels\AccountsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AccountsModel.edmx</DependentUpon>
+      <LastGenOutput>AccountsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\AccountsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>AccountsModel.edmx</DependentUpon>
+      <LastGenOutput>AccountsModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\EquipmentsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EquipmentsModel.edmx</DependentUpon>
+      <LastGenOutput>EquipmentsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\EquipmentsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>EquipmentsModel.edmx</DependentUpon>
+      <LastGenOutput>EquipmentsModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\FingerprintModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FingerprintModel.edmx</DependentUpon>
+      <LastGenOutput>FingerprintModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\FingerprintModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FingerprintModel.edmx</DependentUpon>
+      <LastGenOutput>FingerprintModel.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\Contacts.png" />
+    <None Include="Resources\camera2.PNG" />
+    <None Include="Resources\Calendar.png" />
+    <Content Include="ADO.NetModels\FingerprintModel1.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FingerprintModel1.edmx</DependentUpon>
+      <LastGenOutput>FingerprintModel1.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\FingerprintModel1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>FingerprintModel1.edmx</DependentUpon>
+      <LastGenOutput>FingerprintModel1.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\MessageModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MessageModel.edmx</DependentUpon>
+      <LastGenOutput>MessageModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\MessageModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>MessageModel.edmx</DependentUpon>
+      <LastGenOutput>MessageModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\ProfessorsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ProfessorsModel.edmx</DependentUpon>
+      <LastGenOutput>ProfessorsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\ProfessorsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ProfessorsModel.edmx</DependentUpon>
+      <LastGenOutput>ProfessorsModel.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\ReportsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ReportsModel.edmx</DependentUpon>
+      <LastGenOutput>ReportsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\ReportsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>ReportsModel.edmx</DependentUpon>
+      <LastGenOutput>ReportsModel.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\ActivityMonitoredited.png" />
+    <None Include="Resources\Contactsedited.png" />
+    <Content Include="Resources\debut.jpg" />
+    <None Include="Resources\Documents Library.png" />
+    <None Include="Resources\icons8_fingerprint_scan_filled_96px.png" />
+    <None Include="Resources\iBookAuthoredited.png" />
+    <None Include="Resources\FeedbackAssistantedited.png" />
+    <None Include="Resources\iBooksedited.png" />
+    <Content Include="Resources\icons8_hide.png" />
+    <Content Include="Resources\icons8_hide_white.png" />
+    <Content Include="Resources\icons8_invisible_32px_1.png" />
+    <None Include="Resources\icons8_user_filled_100px_1.png" />
+    <None Include="Resources\icons8_user_filled_100px_2.png" />
+    <None Include="Resources\icons8_user_filled_100px.png" />
+    <Content Include="Resources\icons8_visible.png" />
+    <Content Include="Resources\icons8_visible_white.png" />
+    <None Include="Resources\p3.jpg" />
+    <None Include="Resources\Sync Center.png" />
+    <None Include="Resources\Messaging.png" />
+    <None Include="Resources\resized_inventory.jpg" />
+    <None Include="Resources\resized_add.jpg" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\ImageCaptureedited.png" />
+    <None Include="Resources\KeyChainAccessedited.png" />
+    <None Include="Resources\Remindersedited.png" />
+    <None Include="Resources\rgdrg.png" />
+    <Content Include="Resources\textbox_password.png" />
+    <None Include="Resources\textbox_user_10.jpg" />
+    <None Include="Resources\textbox_user_1.jpg" />
+    <None Include="Resources\textbox_user_2.jpg" />
+    <None Include="Resources\textbox_user_11.jpg" />
+    <None Include="Resources\textbox_user_12.jpg" />
+    <None Include="Resources\textbox_user_13.jpg" />
+    <None Include="Resources\textbox_user_14.jpg" />
+    <None Include="Resources\textbox_user_15.jpg" />
+    <None Include="Resources\textbox_user_16.jpg" />
+    <None Include="Resources\textbox_user_17.jpg" />
+    <None Include="Resources\textbox_user_18.jpg" />
+    <None Include="Resources\textbox_user_19.jpg" />
+    <None Include="Resources\textbox_user_20.jpg" />
+    <None Include="Resources\textbox_user_21.jpg" />
+    <None Include="Resources\textbox_user_22.jpg" />
+    <None Include="Resources\textbox_user_23.jpg" />
+    <Content Include="Resources\textbox_user_24.jpg" />
+    <None Include="Resources\textbox_user_3.jpg" />
+    <None Include="Resources\textbox_user_4.jpg" />
+    <None Include="Resources\textbox_user_5.jpg" />
+    <None Include="Resources\textbox_user_6.jpg" />
+    <None Include="Resources\textbox_user_7.jpg" />
+    <None Include="Resources\textbox_user_8.jpg" />
+    <None Include="Resources\textbox_user_9.jpg" />
+    <Content Include="Resources\textbox_user_clicked.jpg" />
+    <None Include="Resources\User Accounts.png" />
+    <None Include="Resources\twitter_header_photo_1.png" />
+    <Content Include="ADO.NetModels\SchedulesModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SchedulesModel.edmx</DependentUpon>
+      <LastGenOutput>SchedulesModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\SchedulesModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>SchedulesModel.edmx</DependentUpon>
+      <LastGenOutput>SchedulesModel.cs</LastGenOutput>
+    </Content>
+    <None Include="Resources\TextEditedited.png" />
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ADO.NetModels\StudentsModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+      <LastGenOutput>StudentsModel.Context.cs</LastGenOutput>
+    </Content>
+    <Content Include="ADO.NetModels\StudentsModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>StudentsModel.edmx</DependentUpon>
+      <LastGenOutput>StudentsModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

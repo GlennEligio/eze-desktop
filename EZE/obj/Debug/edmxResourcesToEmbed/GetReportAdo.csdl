@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GetReportModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="EZEEntities7" annotation:LazyLoadingEnabled="true">
+    <FunctionImport Name="GetReport" ReturnType="Collection(GetReportModel.GetReport_Result)">
+      <Parameter Name="FromDate" Mode="In" Type="DateTime" />
+      <Parameter Name="ToDate" Mode="In" Type="DateTime" />
+    </FunctionImport>
+  </EntityContainer>
+  <ComplexType Name="GetReport_Result">
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Student_Number" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="Borrower" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Year_and_Section" Nullable="true" MaxLength="10" />
+    <Property Type="String" Name="Equipment_Borrowed" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Time_and_Date_Returned" Nullable="true" MaxLength="50" />
+    <Property Type="String" Name="Professor" Nullable="true" MaxLength="50" />
+  </ComplexType>
+</Schema>

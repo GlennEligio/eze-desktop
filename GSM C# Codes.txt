@@ -1,0 +1,63 @@
+  //Loading ng Form
+       private void TransactionBorrow_Load(object sender, EventArgs e)
+        {
+            txtBarcode.Select();
+            timer1.Start();
+            Init();
+            Start();
+            context = new EZEEntities();
+            FillMetroGrid();
+
+            string[] ports = SerialPort.GetPortNames();
+            cBoxCOMPORT.Items.AddRange(ports);
+
+            btnOpen.Enabled = true;
+            btnClose.Enabled = false;
+
+          
+            serialPort1.DtrEnable = false;
+
+            serialPort1.RtsEnable = false;
+        }
+
+//On button Click, Sending
+ if (serialPort1.IsOpen)
+            {
+                dataOUT = "#" + txtProfNum.Text + "001" + txtFName.Text + "002" + txtEquipment.Text + "003" + txtProf.Text + "004" + code;
+                serialPort1.WriteLine(dataOUT);
+                MessageBox.Show("Recorded Successfully");
+
+                var t = new Timer();
+                t.Interval = 1000; // it will Tick in 1 seconds
+                t.Tick += (s, f) =>
+                {
+                    t.Stop();
+                };
+                t.Start();
+            }
+//Decodes received message
+private void serialPort1_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            dataIN = serialPort1.ReadExisting();
+            this.Invoke(new System.EventHandler(ShowData));
+
+        }
+ private void ShowData(object sender, EventArgs e)
+        {
+            tBoxDataIN.Text += dataIN;
+
+            if (tBoxDataIN.Text.Length == 63)
+            {
+                message = tBoxDataIN.Text;
+                verificationCode = message.Substring(54,5);
+                tBoxVerificationCode.Text = verificationCode;
+
+                var t = new Timer();
+                t.Interval = 1000; // it will Tick in 1 seconds
+                t.Tick += (s, f) =>
+                {
+                    tBoxDataIN.Text = "";
+                    t.Stop();
+                };
+                t.Start();
+            }

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EZEModel6StoreContainer" CdmEntityContainer="EZEEntities7">
+    <FunctionImportMapping FunctionImportName="GetReturnItemsReport" FunctionName="EZEModel6.Store.GetReturnItemsReport">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="EZEModel6.GetReturnItemsReport_Result">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Student_Number" ColumnName="Student_Number" />
+          <ScalarProperty Name="Borrower" ColumnName="Borrower" />
+          <ScalarProperty Name="Year_and_Section" ColumnName="Year_and_Section" />
+          <ScalarProperty Name="Equipment_Borrowed" ColumnName="Equipment_Borrowed" />
+          <ScalarProperty Name="Professor" ColumnName="Professor" />
+          <ScalarProperty Name="Time_and_Date_Returned" ColumnName="Time_and_Date_Returned" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

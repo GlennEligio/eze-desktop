@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EZEModel2.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="StudentsTable">
+    <Key>
+      <PropertyRef Name="Student_Number" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Student_Number" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Full_Name" Type="nvarchar" MaxLength="50" />
+    <Property Name="Year_and_Section" Type="nvarchar" MaxLength="10" />
+    <Property Name="Contact_Number" Type="nvarchar" MaxLength="15" />
+    <Property Name="Birthday" Type="nvarchar" MaxLength="20" />
+    <Property Name="Address" Type="nvarchar" MaxLength="150" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="Guardian" Type="nvarchar" MaxLength="50" />
+    <Property Name="Guardian_Number" Type="nvarchar" MaxLength="15" />
+    <Property Name="Year_Level" Type="nvarchar" MaxLength="20" />
+    <Property Name="Image_Location" Type="nvarchar" MaxLength="200" />
+  </EntityType>
+  <EntityContainer Name="EZEModel2StoreContainer">
+    <EntitySet Name="StudentsTable" EntityType="Self.StudentsTable" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,667 @@
+C:\EZE\EZE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\EZE\EZE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\EZE\EZE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\EZE\EZE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\EZE\EZE\bin\Debug\EZE.exe.config
+C:\EZE\EZE\bin\Debug\EZE.exe
+C:\EZE\EZE\bin\Debug\EZE.pdb
+C:\EZE\EZE\bin\Debug\Dapper.dll
+C:\EZE\EZE\bin\Debug\DPFPDevNET.dll
+C:\EZE\EZE\bin\Debug\DPFPEngNET.dll
+C:\EZE\EZE\bin\Debug\DPFPGuiNET.dll
+C:\EZE\EZE\bin\Debug\DPFPShrNET.dll
+C:\EZE\EZE\bin\Debug\DPFPVerNET.dll
+C:\EZE\EZE\bin\Debug\EntityFramework.BulkInsert.dll
+C:\EZE\EZE\bin\Debug\EntityFramework.dll
+C:\EZE\EZE\bin\Debug\EntityFramework.MappingAPI.dll
+C:\EZE\EZE\bin\Debug\EntityFramework.SqlServer.dll
+C:\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.dll
+C:\EZE\EZE\bin\Debug\ExcelDataReader.dll
+C:\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.dll
+C:\EZE\EZE\bin\Debug\MetroFramework.Design.dll
+C:\EZE\EZE\bin\Debug\MetroFramework.dll
+C:\EZE\EZE\bin\Debug\MetroFramework.Fonts.dll
+C:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\EZE\EZE\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\EZE\EZE\bin\Debug\Transitions.dll
+C:\EZE\EZE\bin\Debug\WebCam_Capture.dll
+C:\EZE\EZE\bin\Debug\Z.Dapper.Plus.dll
+C:\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.dll
+C:\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+C:\EZE\EZE\bin\Debug\Z.Expressions.Eval.dll
+C:\EZE\EZE\bin\Debug\DPFPCtlXWrapperNET.dll
+C:\EZE\EZE\bin\Debug\DPFPCtlXTypeLibNET.dll
+C:\EZE\EZE\bin\Debug\DPFPShrXTypeLibNET.dll
+C:\EZE\EZE\bin\Debug\EnvDTE.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\EZE\EZE\bin\Debug\stdole.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\EZE\EZE\bin\Debug\EnvDTE80.dll
+C:\EZE\EZE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+C:\EZE\EZE\bin\Debug\VSLangProj.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\EZE\EZE\bin\Debug\VSLangProj80.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+C:\EZE\EZE\bin\Debug\Newtonsoft.Json.dll
+C:\EZE\EZE\bin\Debug\System.Threading.Tasks.Dataflow.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+C:\EZE\EZE\bin\Debug\Microsoft.MSXML.dll
+C:\EZE\EZE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\EZE\EZE\bin\Debug\Microsoft.Build.Framework.dll
+C:\EZE\EZE\bin\Debug\VSLangProj2.dll
+C:\EZE\EZE\bin\Debug\Dapper.xml
+C:\EZE\EZE\bin\Debug\EntityFramework.xml
+C:\EZE\EZE\bin\Debug\EntityFramework.SqlServer.xml
+C:\EZE\EZE\bin\Debug\ExcelDataReader.pdb
+C:\EZE\EZE\bin\Debug\ExcelDataReader.xml
+C:\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.xml
+C:\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.pdb
+C:\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.xml
+C:\EZE\EZE\bin\Debug\Transitions.pdb
+C:\EZE\EZE\bin\Debug\Z.Dapper.Plus.xml
+C:\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.xml
+C:\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+C:\EZE\EZE\bin\Debug\Z.Expressions.Eval.xml
+C:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\EZE\EZE\obj\Debug\EZE.exe.config
+C:\EZE\EZE\obj\Debug\EZE.EZE_FacultyInformation.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprint.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_AccountsDatabase.resources
+C:\EZE\EZE\obj\Debug\EZE.Controls.HowToReceiveCode.resources
+C:\EZE\EZE\obj\Debug\EZE.UCFP.resources
+C:\EZE\EZE\obj\Debug\EZE.UCHelp.resources
+C:\EZE\EZE\obj\Debug\EZE.UCRP.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_AdminMenu.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_Camera.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_ForgotPassword.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_Inventory.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_Report.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_Schedule.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_StartForm.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_FingerprintRegister.resources
+C:\EZE\EZE\obj\Debug\EZE.Plexiglass.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_ImportExcelFile.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_LoginFingerprintRegister.resources
+C:\EZE\EZE\obj\Debug\EZE.messagebox.resources
+C:\EZE\EZE\obj\Debug\EZE.messagebox2.resources
+C:\EZE\EZE\obj\Debug\EZE.messagebox3.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_SAMenu.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrowVerify.resources
+C:\EZE\EZE\obj\Debug\EZE.messagebox4.resources
+C:\EZE\EZE\obj\Debug\EZE.Form1.resources
+C:\EZE\EZE\obj\Debug\EZE.Properties.Resources.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_StudentsDatabase.resources
+C:\EZE\EZE\obj\Debug\EZE.ViewDetails.resources
+C:\EZE\EZE\obj\Debug\EZE.ViewDetails2.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrow.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_TransactionReturn.resources
+C:\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprint.resources
+C:\EZE\EZE\obj\Debug\EZE.csproj.GenerateResource.cache
+C:\EZE\EZE\obj\Debug\RdlCompile.cache
+C:\EZE\EZE\obj\Debug\RdlCompile.compiled
+C:\EZE\EZE\obj\Debug\EZE.csproj.CoreCompileInputs.cache
+C:\EZE\EZE\obj\Debug\EZE.csproj.CopyComplete
+C:\EZE\EZE\obj\Debug\EZE.exe
+C:\EZE\EZE\obj\Debug\EZE.pdb
+D:\EZE\EZE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\EZE\EZE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\EZE\EZE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\EZE\EZE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\EZE\EZE\bin\Debug\EZE.exe.config
+D:\EZE\EZE\bin\Debug\EZE.exe
+D:\EZE\EZE\bin\Debug\EZE.pdb
+D:\EZE\EZE\bin\Debug\Dapper.dll
+D:\EZE\EZE\bin\Debug\DPFPDevNET.dll
+D:\EZE\EZE\bin\Debug\DPFPEngNET.dll
+D:\EZE\EZE\bin\Debug\DPFPGuiNET.dll
+D:\EZE\EZE\bin\Debug\DPFPShrNET.dll
+D:\EZE\EZE\bin\Debug\DPFPVerNET.dll
+D:\EZE\EZE\bin\Debug\EntityFramework.BulkInsert.dll
+D:\EZE\EZE\bin\Debug\EntityFramework.dll
+D:\EZE\EZE\bin\Debug\EntityFramework.MappingAPI.dll
+D:\EZE\EZE\bin\Debug\EntityFramework.SqlServer.dll
+D:\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.dll
+D:\EZE\EZE\bin\Debug\ExcelDataReader.dll
+D:\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\EZE\EZE\bin\Debug\MetroFramework.Design.dll
+D:\EZE\EZE\bin\Debug\MetroFramework.dll
+D:\EZE\EZE\bin\Debug\MetroFramework.Fonts.dll
+D:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\EZE\EZE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\EZE\EZE\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\EZE\EZE\bin\Debug\Transitions.dll
+D:\EZE\EZE\bin\Debug\Z.Dapper.Plus.dll
+D:\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.dll
+D:\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+D:\EZE\EZE\bin\Debug\Z.Expressions.Eval.dll
+D:\EZE\EZE\bin\Debug\DPFPCtlXWrapperNET.dll
+D:\EZE\EZE\bin\Debug\DPFPCtlXTypeLibNET.dll
+D:\EZE\EZE\bin\Debug\DPFPShrXTypeLibNET.dll
+D:\EZE\EZE\bin\Debug\EnvDTE.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\EZE\EZE\bin\Debug\stdole.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\EZE\EZE\bin\Debug\EnvDTE80.dll
+D:\EZE\EZE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\EZE\EZE\bin\Debug\VSLangProj.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\EZE\EZE\bin\Debug\VSLangProj80.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\EZE\EZE\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\EZE\EZE\bin\Debug\Microsoft.MSXML.dll
+D:\EZE\EZE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\EZE\EZE\bin\Debug\Microsoft.Build.Framework.dll
+D:\EZE\EZE\bin\Debug\VSLangProj2.dll
+D:\EZE\EZE\bin\Debug\Dapper.xml
+D:\EZE\EZE\bin\Debug\EntityFramework.xml
+D:\EZE\EZE\bin\Debug\EntityFramework.SqlServer.xml
+D:\EZE\EZE\bin\Debug\ExcelDataReader.pdb
+D:\EZE\EZE\bin\Debug\ExcelDataReader.xml
+D:\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.xml
+D:\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\EZE\EZE\bin\Debug\Transitions.pdb
+D:\EZE\EZE\bin\Debug\Z.Dapper.Plus.xml
+D:\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.xml
+D:\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+D:\EZE\EZE\bin\Debug\Z.Expressions.Eval.xml
+D:\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZE\EZE\obj\Debug\EZE.exe.config
+D:\EZE\EZE\obj\Debug\EZE.EZE_FacultyInformation.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprint.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_AccountsDatabase.resources
+D:\EZE\EZE\obj\Debug\EZE.Controls.HowToReceiveCode.resources
+D:\EZE\EZE\obj\Debug\EZE.UCFP.resources
+D:\EZE\EZE\obj\Debug\EZE.UCHelp.resources
+D:\EZE\EZE\obj\Debug\EZE.UCRP.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_AdminMenu.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_Camera.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_ForgotPassword.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_Report.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_Schedule.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_StartForm.resources
+D:\EZE\EZE\obj\Debug\EZE.Plexiglass.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_ImportExcelFile.resources
+D:\EZE\EZE\obj\Debug\EZE.messagebox.resources
+D:\EZE\EZE\obj\Debug\EZE.messagebox2.resources
+D:\EZE\EZE\obj\Debug\EZE.messagebox3.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_SAMenu.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrowVerify.resources
+D:\EZE\EZE\obj\Debug\EZE.messagebox4.resources
+D:\EZE\EZE\obj\Debug\EZE.Properties.Resources.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_StudentsDatabase.resources
+D:\EZE\EZE\obj\Debug\EZE.ViewDetails.resources
+D:\EZE\EZE\obj\Debug\EZE.ViewDetails2.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrow.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_TransactionReturn.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprint.resources
+D:\EZE\EZE\obj\Debug\EZE.csproj.GenerateResource.cache
+D:\EZE\EZE\obj\Debug\EZE.csproj.CoreCompileInputs.cache
+D:\EZE\EZE\obj\Debug\EZE.csproj.CopyComplete
+D:\EZE\EZE\obj\Debug\EZE.exe
+D:\EZE\EZE\obj\Debug\EZE.pdb
+D:\EZE\EZE\obj\Debug\EZE.EZE_FAQs.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_AdminDashboard.resources
+D:\EZE\EZE\bin\Debug\FontAwesome.Sharp.dll
+D:\EZE\EZE\obj\Debug\EZE.EZE_Inventory.resources
+D:\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.dll
+D:\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.pdb
+D:\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.xml
+D:\EZE\EZE\obj\Debug\EZE.Validation.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprintRegister.resources
+D:\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprintRegister.resources
+D:\EZE\EZE\bin\Debug\Guna.UI2.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EZE.exe.config
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EZE.exe
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EZE.pdb
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Dapper.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EntityFramework.BulkInsert.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EntityFramework.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EntityFramework.MappingAPI.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EntityFramework.SqlServer.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ExcelDataReader.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\FontAwesome.Sharp.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Guna.UI2.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\MetroFramework.Design.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\MetroFramework.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\MetroFramework.Fonts.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Transitions.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.Dapper.Plus.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.Expressions.Eval.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EnvDTE.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\stdole.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EnvDTE80.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\VSLangProj.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\VSLangProj80.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.MSXML.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.Build.Framework.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\VSLangProj2.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Dapper.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EntityFramework.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\EntityFramework.SqlServer.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ExcelDataReader.pdb
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ExcelDataReader.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.pdb
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Transitions.pdb
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.Dapper.Plus.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Z.Expressions.Eval.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.exe.config
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_AdminDashboard.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_Report.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprint.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_AccountsDatabase.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.Controls.HowToReceiveCode.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.UCFP.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.UCHelp.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.UCRP.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_AdminMenu.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_Camera.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_ForgotPassword.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_Schedule.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_StartForm.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprintRegister.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.Plexiglass.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_ImportExcelFile.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprintRegister.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.messagebox.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.messagebox2.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.messagebox3.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_SAMenu.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrowVerify.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.messagebox4.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_FAQs.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_FacultyInformation.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_Inventory.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.Properties.Resources.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.ViewDetails.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.ViewDetails2.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrow.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_TransactionReturn.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprint.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.Validation.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.EZE_StudentsDatabase.resources
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.csproj.GenerateResource.cache
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.csproj.CoreCompileInputs.cache
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.csproj.CopyComplete
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.exe
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.pdb
+D:\JELO FILES\THESIS\EZE\EZE\obj\Debug\EZE.csprojAssemblyReference.cache
+D:\EZE\EZE\bin\Debug\WebCam_Capture.dll
+D:\EZEv2\EZE\EZE\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+D:\EZEv2\EZE\EZE\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+D:\EZEv2\EZE\EZE\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+D:\EZEv2\EZE\EZE\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EZE.exe.config
+D:\EZEv2\EZE\EZE\bin\Debug\EZE.exe
+D:\EZEv2\EZE\EZE\bin\Debug\EZE.pdb
+D:\EZEv2\EZE\EZE\bin\Debug\Dapper.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPDevNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPEngNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPGuiNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPShrNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPVerNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EntityFramework.BulkInsert.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EntityFramework.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EntityFramework.MappingAPI.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EntityFramework.SqlServer.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ExcelDataReader.dll
+D:\EZEv2\EZE\EZE\bin\Debug\FontAwesome.Sharp.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\EZEv2\EZE\EZE\bin\Debug\MetroFramework.Design.dll
+D:\EZEv2\EZE\EZE\bin\Debug\MetroFramework.dll
+D:\EZEv2\EZE\EZE\bin\Debug\MetroFramework.Fonts.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Common.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.ReportViewer.Design.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.SqlServer.Types.dll
+D:\EZEv2\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Transitions.dll
+D:\EZEv2\EZE\EZE\bin\Debug\WebCam_Capture.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Z.Dapper.Plus.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Z.Expressions.Eval.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPCtlXWrapperNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPCtlXTypeLibNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\DPFPShrXTypeLibNET.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EnvDTE.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\stdole.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.VSHelp.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ProjectAggregator.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ComponentModelHost.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.InteropA.dll
+D:\EZEv2\EZE\EZE\bin\Debug\EnvDTE80.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.Build.Tasks.Core.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Services.dll
+D:\EZEv2\EZE\EZE\bin\Debug\VSLangProj.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.11.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Data.Core.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\VSLangProj80.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.ManagedInterfaces.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.Debugger.Interop.11.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Newtonsoft.Json.dll
+D:\EZEv2\EZE\EZE\bin\Debug\System.Threading.Tasks.Dataflow.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.GraphModel.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.MSXML.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.Build.Utilities.Core.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.Build.Framework.dll
+D:\EZEv2\EZE\EZE\bin\Debug\VSLangProj2.dll
+D:\EZEv2\EZE\EZE\bin\Debug\Dapper.xml
+D:\EZEv2\EZE\EZE\bin\Debug\EntityFramework.xml
+D:\EZEv2\EZE\EZE\bin\Debug\EntityFramework.SqlServer.xml
+D:\EZEv2\EZE\EZE\bin\Debug\ExcelDataReader.pdb
+D:\EZEv2\EZE\EZE\bin\Debug\ExcelDataReader.xml
+D:\EZEv2\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\EZEv2\EZE\EZE\bin\Debug\ExcelDataReader.DataSet.xml
+D:\EZEv2\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.pdb
+D:\EZEv2\EZE\EZE\bin\Debug\ICSharpCode.SharpZipLib.xml
+D:\EZEv2\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.pdb
+D:\EZEv2\EZE\EZE\bin\Debug\System.Linq.Dynamic.Core.xml
+D:\EZEv2\EZE\EZE\bin\Debug\Transitions.pdb
+D:\EZEv2\EZE\EZE\bin\Debug\Z.Dapper.Plus.xml
+D:\EZEv2\EZE\EZE\bin\Debug\Z.EntityFramework.Extensions.xml
+D:\EZEv2\EZE\EZE\bin\Debug\Z.EntityFramework.Plus.EF6.xml
+D:\EZEv2\EZE\EZE\bin\Debug\Z.Expressions.Eval.xml
+D:\EZEv2\EZE\EZE\bin\Debug\Microsoft.VisualStudio.TemplateWizardInterface.xml
+D:\EZEv2\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.csprojAssemblyReference.cache
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.exe.config
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_AdminDashboard.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_Report.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprint.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_AccountsDatabase.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.Controls.HowToReceiveCode.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.UCFP.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.UCHelp.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.UCRP.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_AdminMenu.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_Camera.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_ForgotPassword.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_Schedule.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_StartForm.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_StudentsFingerprintRegister.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.Plexiglass.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_ImportExcelFile.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprintRegister.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.messagebox.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.messagebox2.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.messagebox3.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_SAMenu.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrowVerify.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.messagebox4.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_FAQs.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_FacultyInformation.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_Inventory.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.Properties.Resources.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.ViewDetails.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.ViewDetails2.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_TransactionBorrow.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_TransactionReturn.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_UsersFingerprint.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.Validation.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.EZE_StudentsDatabase.resources
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.csproj.GenerateResource.cache
+D:\EZEv2\EZE\EZE\obj\Debug\RdlCompile.cache
+D:\EZEv2\EZE\EZE\obj\Debug\RdlCompile.compiled
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.csproj.CoreCompileInputs.cache
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.csproj.CopyComplete
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.exe
+D:\EZEv2\EZE\EZE\obj\Debug\EZE.pdb
+D:\EZE\EZE\obj\Debug\EZE.csprojAssemblyReference.cache
+D:\EZE\EZE\obj\Debug\RdlCompile.cache
+D:\EZE\EZE\obj\Debug\RdlCompile.compiled
+D:\EZE\EZE\bin\Debug\Newtonsoft.Json.dll

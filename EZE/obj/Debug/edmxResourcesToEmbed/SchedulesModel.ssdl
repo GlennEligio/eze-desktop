@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="EZEModel8.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="SchedulesTable">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Subject_Code" Type="nvarchar" MaxLength="20" />
+    <Property Name="Subject_Name" Type="nvarchar" MaxLength="100" />
+    <Property Name="Day" Type="nvarchar" MaxLength="50" />
+    <Property Name="Time" Type="nvarchar" MaxLength="50" />
+    <Property Name="Room" Type="nvarchar" MaxLength="20" />
+    <Property Name="Professor" Type="nvarchar" MaxLength="100" />
+    <Property Name="Year_Level" Type="nvarchar" MaxLength="20" />
+    <Property Name="Year_and_Section" Type="nvarchar" MaxLength="10" />
+  </EntityType>
+  <EntityContainer Name="EZEModel8StoreContainer">
+    <EntitySet Name="SchedulesTable" EntityType="Self.SchedulesTable" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

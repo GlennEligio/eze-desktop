@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EZEModel2StoreContainer" CdmEntityContainer="EZEEntities2">
+    <EntitySetMapping Name="StudentsTables">
+      <EntityTypeMapping TypeName="EZEModel2.StudentsTable">
+        <MappingFragment StoreEntitySet="StudentsTable">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Student_Number" ColumnName="Student_Number" />
+          <ScalarProperty Name="Full_Name" ColumnName="Full_Name" />
+          <ScalarProperty Name="Year_and_Section" ColumnName="Year_and_Section" />
+          <ScalarProperty Name="Contact_Number" ColumnName="Contact_Number" />
+          <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Guardian" ColumnName="Guardian" />
+          <ScalarProperty Name="Guardian_Number" ColumnName="Guardian_Number" />
+          <ScalarProperty Name="Year_Level" ColumnName="Year_Level" />
+          <ScalarProperty Name="Image_Location" ColumnName="Image_Location" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EZEModel3StoreContainer" CdmEntityContainer="EZEEntities3">
+    <EntitySetMapping Name="EquipmentsTables">
+      <EntityTypeMapping TypeName="EZEModel3.EquipmentsTable">
+        <MappingFragment StoreEntitySet="EquipmentsTable">
+          <ScalarProperty Name="Defective_Since" ColumnName="Defective_Since" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Equipment" ColumnName="Equipment" />
+          <ScalarProperty Name="Barcode" ColumnName="Barcode" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

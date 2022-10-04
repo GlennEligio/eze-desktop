@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="EZEModel8StoreContainer" CdmEntityContainer="EZEEntities8">
+    <EntitySetMapping Name="SchedulesTables">
+      <EntityTypeMapping TypeName="EZEModel8.SchedulesTable">
+        <MappingFragment StoreEntitySet="SchedulesTable">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Subject_Code" ColumnName="Subject_Code" />
+          <ScalarProperty Name="Subject_Name" ColumnName="Subject_Name" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Room" ColumnName="Room" />
+          <ScalarProperty Name="Professor" ColumnName="Professor" />
+          <ScalarProperty Name="Year_Level" ColumnName="Year_Level" />
+          <ScalarProperty Name="Year_and_Section" ColumnName="Year_and_Section" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
