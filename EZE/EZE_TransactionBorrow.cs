@@ -50,10 +50,11 @@ namespace EZE
         public static string SetTextForEquipment = "";
         public static string SetTextForStatus = "NOT VERIFIED";
         public static EZE_TransactionBorrow _instance;
-        private GSMsms gsmSms;
-        private MessageRepository messageRepository;
-        private BorrowEquipmentsClassRepository borrowRepository;
-        private ProfessorRepository professorRepository;
+        // TODO: Implement GSM feature without triggering the error
+        //private GSMsms gsmSms;
+        //private MessageRepository messageRepository;
+        //private BorrowEquipmentsClassRepository borrowRepository;
+        //private ProfessorRepository professorRepository;
 
         public EZE_TransactionBorrow()
         {
@@ -81,54 +82,18 @@ namespace EZE
             context1 = new EZEEntities2();
             FillMetroGrid();
 
-            string cnUrl = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
-            Console.WriteLine(cnUrl);
-            borrowRepository = BorrowEquipmentsClassRepository.getInstance(cnUrl);
-            professorRepository = ProfessorRepository.getInstance();
-            professorRepository = ProfessorRepository.getInstance();
-            messageRepository = MessageRepository.getInstance();
-            gsmSms = GSMsms.getInstance(messageRepository);
-            gsmSms.Connect();
-            gsmSms.Start_Read_Interval();
-            timerGsmPoll.Start();
 
-            //string[] ports = SerialPort.GetPortNames();
-            //cmbComPort.Items.AddRange(ports);
-            //btnOpen.Enabled = true;
-            //btnClose.Enabled = false;
-            //serialPort1.DtrEnable = false;
-            //serialPort1.RtsEnable = false;
-
-            //var t = new Timer();
-            //t.Interval = 100; // it will Tick in n seconds
-            //t.Tick += (s, f) =>
-            //{
-            //    try
-            //    {
-            //        serialPort1.PortName = comport;
-            //        serialPort1.BaudRate = 9600;
-            //        serialPort1.DataBits = 8;
-            //        serialPort1.StopBits = StopBits.One;
-            //        serialPort1.Parity = Parity.None;
-
-            //        serialPort1.Open();
-            //        progressBar1.Value = 100;
-            //        btnOpen.Enabled = false;
-            //        btnClose.Enabled = true;
-            //        lblStatusCom.Text = "ON";
-            //    }
-            //    catch (Exception ex)
-            //    {
-            //                            Plexiglass pg = new Plexiglass(this);
-            //MetroMessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-           //pg.Close();
-            //        btnOpen.Enabled = true;
-            //        btnClose.Enabled = false;
-            //        lblStatusCom.Text = "OFF";
-            //    }
-            //    t.Stop();
-            //};
-            //t.Start();
+            // TODO: Implement GSM feature without triggering the error
+            //string cnUrl = ConfigurationManager.ConnectionStrings["cn"].ConnectionString;
+            //Console.WriteLine(cnUrl);
+            //borrowRepository = BorrowEquipmentsClassRepository.getInstance(cnUrl);
+            //professorRepository = ProfessorRepository.getInstance();
+            //professorRepository = ProfessorRepository.getInstance();
+            //messageRepository = MessageRepository.getInstance();
+            //gsmSms = GSMsms.getInstance(messageRepository);
+            //gsmSms.Connect();
+            //gsmSms.Start_Read_Interval();
+            //timerGsmPoll.Start();
 
             using (SqlConnection myConn = new SqlConnection(ConfigurationManager.ConnectionStrings["cn"].ConnectionString))
             {
@@ -150,10 +115,6 @@ namespace EZE
 
         private void SetStatus(string status)
         {
-
-            //if (!IsHandleCreated) {
-            //    CreateControl();
-            //}
 
             Invoke(new MethodInvoker(delegate
             {
@@ -462,20 +423,21 @@ namespace EZE
                             pnlAuto.Enabled = false;
                             cmbProf.Enabled = false;
 
-                            if (gsmSms.isConnected)
-                            {
-                                string studentName = txtFName.Text;
-                                string itemsName = replaceValue;
-                                string tCode = code;
-                                string message = "Student: " + studentName + "\n" +
-                                    "Equipment(s): " + "\n" +
-                                    itemsName + "\n" +
-                                    "Code: " + tCode;
-                                gsmSms.Send(txtProfNum.Text, message);
-                            } else
-                            {
-                                MessageBox.Show("App not connected to GSM Module.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                            }
+                            // TODO: Implement GSM feature without triggering the error
+                            //if (gsmSms.isConnected)
+                            //{
+                            //    string studentName = txtFName.Text;
+                            //    string itemsName = replaceValue;
+                            //    string tCode = code;
+                            //    string message = "Student: " + studentName + "\n" +
+                            //        "Equipment(s): " + "\n" +
+                            //        itemsName + "\n" +
+                            //        "Code: " + tCode;
+                            //    gsmSms.Send(txtProfNum.Text, message);
+                            //} else
+                            //{
+                            //    MessageBox.Show("App not connected to GSM Module.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                            //}
 
                             txtTotalEquipment.Text = "";
                             txtTotalBarcode.Text = "";
@@ -1416,25 +1378,26 @@ namespace EZE
                     }
                 }
             }
-        }       
+        }
 
 
+        // TODO: Implement GSM feature without triggering the error
         private void timerGsmPoll_Tick(object sender, EventArgs e)
         {
-            List<BorrowEquipmentsClass> borrows = borrowRepository.getBorrowEquipmentsByStatus("NOT VERIFIED");
+            //List<BorrowEquipmentsClass> borrows = borrowRepository.getBorrowEquipmentsByStatus("NOT VERIFIED");
 
-            foreach (BorrowEquipmentsClass brw in borrows)
-            {
-                List<MessagesTable> messages = messageRepository.getMessagesByCode(brw.Code);
-                if (messages.Count > 0)
-                {
-                    if (messages[0].Code == brw.Code && messages[0].Sender == professorRepository.getProfessorByName(brw.Professor).Contact_Number)
-                    {
-                        borrowRepository.updateStatusBorrowEquipmentById(brw.ID);
-                    }
-                }
-            }
-            FillMetroGrid();
+            //foreach (BorrowEquipmentsClass brw in borrows)
+            //{
+            //    List<MessagesTable> messages = messageRepository.getMessagesByCode(brw.Code);
+            //    if (messages.Count > 0)
+            //    {
+            //        if (messages[0].Code == brw.Code && messages[0].Sender == professorRepository.getProfessorByName(brw.Professor).Contact_Number)
+            //        {
+            //            borrowRepository.updateStatusBorrowEquipmentById(brw.ID);
+            //        }
+            //    }
+            //}
+            //FillMetroGrid();
         }
     }
 }
