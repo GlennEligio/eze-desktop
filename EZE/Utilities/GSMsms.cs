@@ -27,6 +27,8 @@ namespace EZE.Utilities
 
         private bool initialPoll = true;
 
+        private Thread readThread;
+
         private MessageRepository messageRepository;
 
         private GSMsms(MessageRepository repo)
@@ -79,6 +81,11 @@ namespace EZE.Utilities
 
         public void Disconnect()
         {
+            if(readThread != null)
+            {
+                readThread.Abort();
+                readThread = null;
+            }
             if (gsmPort != null || isConnected || gsmPort.IsOpen)
             {
                 timer.Stop();
@@ -87,6 +94,12 @@ namespace EZE.Utilities
                 gsmPort.Dispose();
                 isConnected = false;
                 initialPoll = true;
+            }
+            if(timer != null)
+            {
+                timer.Stop();
+                timer.Dispose();
+                timer = null;
             }
         }
 
@@ -127,7 +140,7 @@ namespace EZE.Utilities
 
         public void Read()
         {
-            Thread readThread = new Thread(new ThreadStart(readThreadStart));
+            readThread = new Thread(new ThreadStart(readThreadStart));
             readThread.Start();
         }
 

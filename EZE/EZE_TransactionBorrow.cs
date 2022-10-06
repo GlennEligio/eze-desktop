@@ -795,8 +795,8 @@ namespace EZE
                 btnOpen.Enabled = true;
                 lblStatusCom.Text = "OFF";
             }
-            //Close();
-            Dispose();
+            gsmSms.Disconnect();
+            Close();
         }
         private void txtMessage_TextChanged(object sender, EventArgs e)
         {
