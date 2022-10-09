@@ -1,0 +1,2 @@
+notes:
+1. TransactionBorrow_FormClosed() eventhandler function exist in both TransactionReturn and TransactionBorrow Form classes
