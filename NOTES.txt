@@ -1,2 +1,8 @@
 notes:
 1. TransactionBorrow_FormClosed() eventhandler function exist in both TransactionReturn and TransactionBorrow Form classes
+	> seems to be not the problem, since no reference is made for to the TransactionReturn form's TransactionBorrow method
+2. Methods implemented from DPFP.Capture.EventHandler on TransactionBorrow and TransactionReturn form have fully qualified package name
+	> compare to Start Form with only have the method names
+3. Timer for GSM poll in the TransactionBorrow is not properly disposed
+	> https://stackoverflow.com/questions/475763/is-it-necessary-to-dispose-system-timers-timer-if-you-use-one-in-your-applicatio
+4. Inside the Process()'s foreach loop, second if statement where it checks if result.Verified is true, the StartForm calls the Stop(), while TransactionBorrow and TransactionReturn not calls it
